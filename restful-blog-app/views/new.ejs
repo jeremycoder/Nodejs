@@ -1,0 +1,24 @@
+<% include ./partials/header.ejs %>
+
+<div class="ui main text container segment new-page">
+  <div class="ui huge header">New Blog</div>
+    <img class="new-blog-img" src="https://cdn.pixabay.com/photo/2016/04/03/15/57/leaf-1304786_960_720.png" >
+    <form class="ui form" action="/blogs" method="POST">
+      <div class="field">
+        <label>Title</label>
+        <input type="text" name="blog[title]" placeholder="title">
+      </div>
+      <div class="field">
+        <label>Image</label>
+        <input type="text" name="blog[image]" placeholder="image">
+      </div>
+      <div class="field">
+        <label>Blog Content</label>
+        <textarea name="blog[body]" placeholder="blog post goes here"></textarea>
+      </div>
+      <input class="ui green big basic button" type="submit">
+    </form>
+    
+</div> <!-- ui main text container segment -->
+
+<% include ./partials/footer.ejs %>

@@ -1,0 +1,28 @@
+i.icon {
+    font-size: 2em;
+}
+
+.ui.container.title-container {
+    text-align: center;
+    margin: 6.0em auto 0 auto;
+}
+
+.header.index-page {
+    margin-top: 3.0em;
+}
+
+.container.segment.new-page {
+    margin-top: 7.0em;
+}
+
+.new-blog-img {
+    width: 30%;
+}
+
+.index-blog-img {
+    max-width: 550px;
+}
+
+#delete {
+    display: inline;
+}

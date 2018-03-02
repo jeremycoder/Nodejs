@@ -1,0 +1,11 @@
+<h1>Open Movie Database API Request</h1>
+
+<ol>
+<% //Run through object and display movie titles %>
+<% data["Search"].forEach( function(movie){ %>
+  
+  <li> <%= movie["Title"] %> </li>
+
+<% }); %>
+</ol>
+
